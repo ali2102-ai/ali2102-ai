@@ -1,0 +1,93 @@
+@media (max-width: 1275px) {
+    .hero {
+        flex-direction: column;
+        position: static;
+    }
+    .hero-image {
+        order: 1
+    }
+    .hero-content {
+        position: static;
+        order: 2
+    }
+    .container {
+        padding: 0 40px;
+    }
+    .about {
+        flex-direction: column;
+        align-items: center;
+        gap: 32px;
+    }
+    .project {
+        flex-direction: column;
+        gap: 24px;
+    }
+    .project:nth-child(even) {
+        .project-image {
+            order: inherit;
+        }
+    }
+    .project-info {
+        max-width: none;
+    }
+    .hero .hero-content .hero-links {
+        gap: 24px;
+    }
+}
+
+@media (max-width: 725px) {
+    .container {
+        padding: 0 20px;
+    }
+    .header {
+        font-size: 36px;
+    }
+    .hero-description {
+        font-size: 16px;
+    }
+    .header-wrapper .card-header {
+        font-size: 24px;
+    }
+    .skill-card p {
+        font-size: 18px;
+    }
+    .about {
+        gap: 16px;
+    }
+    .about .header {
+        font-size: 36px;
+    }
+}
+@media (max-width: 477px) {
+    .hero .hero-content .hero-links {
+        gap: 16px;
+    }
+    .avatar-wrapper {
+        width: 100%;
+    }
+    .avatar {
+        width: 100%;
+    }
+    .header {
+        font-size: 36px;
+    }
+    .header-wrapper .card-header {
+        font-size: 18px;
+    }
+    .skill-card p {
+        font-size: 15px;
+    }
+    .contacts h2 {
+        font-size: 36px
+    }
+    .project .project-info .project-title {
+        font-size: 24px;
+    }
+    .project .project-info .number {
+        font-size: 36px;
+    }
+    .hero-content .hero-title {
+        font-size: 36px;
+    }
+}
+
